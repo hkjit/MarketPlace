@@ -5,7 +5,7 @@ from flask import redirect, url_for, session
 import MySQLdb
 
 
-dbc = MySQLdb.connect("localhost","root","123456","practise")
+dbc = MySQLdb.connect("localhost","root","1235","practise")
 
 
 app = Flask(__name__)
